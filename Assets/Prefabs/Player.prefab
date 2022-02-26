@@ -131,3 +131,5 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+  bullet: {fileID: 2267573533432708064, guid: e4dc83d5560ec40779f7292a419f27f9, type: 3}
+  bulletSpeed: 100
