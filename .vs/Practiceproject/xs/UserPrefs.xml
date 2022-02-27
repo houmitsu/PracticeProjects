@@ -6,7 +6,7 @@
       <File FileName="Assets/Scripts/ItemController.cs" />
       <File FileName="Assets/Scripts/EnemyController.cs" />
       <File FileName="Assets/Scripts/BulletController.cs" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="21" Column="18" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="62" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
