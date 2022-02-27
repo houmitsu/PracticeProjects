@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
     public string labelText = "4つのアイテムを集めて自由を勝ち取ろう";
     public int maxItems = 4;
+    public bool showWininScreen = false;
 
     private int _itemsCollected = 0;
 
@@ -15,11 +17,13 @@ public class GameController : MonoBehaviour
         set
         {
             _itemsCollected = value;
-            Debug.LogFormat("Items: {0}", _itemsCollected);
+            //Debug.LogFormat("Items: {0}", _itemsCollected);
 
             if(_itemsCollected >= maxItems)
             {
                 labelText = "アイテムを全部見つけたね！";
+                showWininScreen = true;
+                Time.timeScale = 0f;
             }
             else
             {
@@ -51,5 +55,12 @@ public class GameController : MonoBehaviour
 
         GUI.Label(new Rect(Screen.width / 2 - 100, Screen.height
             - 50, 300, 50), labelText);
+
+        if(GUI.Button(new Rect(Screen.width/2 -100,
+            Screen.height/2 - 50, 200, 100), "きみの勝ちだ！"))
+        {
+            SceneManager.LoadScene(0);
+            Time.timeScale = 1.0f;
+        }
     }
 }
