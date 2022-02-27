@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{E560013E-BE22-466C-850C-9207184CCF7D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BulletController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerController.cs" Line="56" Column="55" />
-      <File FileName="Assets/Scripts/CameraController.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/ItemController.cs" Line="14" Column="42" />
-      <File FileName="Assets/Scripts/EnemyController.cs" Line="19" Column="44" />
-      <File FileName="Assets/Scripts/BulletController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CameraController.cs" />
+      <File FileName="Assets/Scripts/ItemController.cs" />
+      <File FileName="Assets/Scripts/EnemyController.cs" />
+      <File FileName="Assets/Scripts/BulletController.cs" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="21" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +14,7 @@
           <Node name="Practiceproject" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="BulletController.cs" selected="True" />
+                <Node name="PlayerController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
